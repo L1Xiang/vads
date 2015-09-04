@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+{% block headline %}
+<h1>Profile </h1>
+{% endblock headline %}
+{% block content %}
+TODO: show user profile nicely here <br>
+<p> First name: {{ object.first_name }} </p>
+<p> Last name: {{ object.last_name}} </p>
+<p> User type: {{ object.user_type}} </p>
+{% endblock %}

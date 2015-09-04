@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+{% block headline %}
+<h1>Please fufill the all the required fileds.</h1>
+{% endblock headline %}
+{% block content %}
+    {% crispy form %}
+{% endblock %}

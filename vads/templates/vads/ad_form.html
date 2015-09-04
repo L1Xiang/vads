@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+{% block headline %}
+<h1>Create a Ad</h1>
+{% endblock headline %}
+{% block content %}
+    {% crispy form %}
+{% endblock %}
